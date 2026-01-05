@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: metrix-api
+    env: docker
+    rootDir: .
+    dockerfilePath: Dockerfile
